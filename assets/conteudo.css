@@ -46,10 +46,11 @@ body {
     border-radius: 25px;
     align-items: center;
     margin-top: 45px;
-    width: 128px;
+    width: 148px;
     height: 45px;
     gap: 10px;
-    padding-left: 15px;
+    padding-left: 15px; 
+    text-transform: uppercase;
 }
 
 .corpo button:hover {
@@ -61,4 +62,9 @@ body {
     margin-bottom: 65px;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
+} 
+
+.footer {
+    text-align: center;
+    margin-top: 65px;
 }
