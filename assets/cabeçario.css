@@ -1,0 +1,28 @@
+.cabeçario {
+    width: 1040px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 25px 0 15px;
+    margin-bottom: 75px;
+
+}
+
+.cabeçario ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing:auto; 
+    font-size: 18px;
+}
+
+.cabeçario ul li:hover {
+    text-shadow: 1px 1px cadetblue;
+}
+
+.cabeçario a {
+    text-decoration: none;
+    color: black;
+}
