@@ -50,7 +50,8 @@ body {
     height: 45px;
     gap: 10px;
     padding-left: 15px; 
-    text-transform: uppercase;
+    text-transform: uppercase; 
+    cursor: pointer;
 }
 
 .corpo button:hover {
@@ -67,4 +68,14 @@ body {
 .footer {
     text-align: center;
     margin-top: 65px;
+} 
+
+.rodapezinho {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+} 
+
+.strong {
+    cursor: pointer;
 }
